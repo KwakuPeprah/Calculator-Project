@@ -4,8 +4,7 @@ from calculator import add, subtract, multiply, divide, power
 
 def test_add_integers_and_negatives():
     """Tests basic addition, including zero and negative numbers."""
-    assert add(3
-               , 5) == 8
+    assert add(3, 5) == 8
     assert add(-1, 1) == 0
     assert add(0, 100) == 100
     
